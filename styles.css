@@ -1,6 +1,97 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+	background: url('images/Xanadu_on_Map_of_Asia.JPG') top left repeat-y;
+	background-size: cover;
+	font-family: serif;
+	background-attachment: fixed;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+header.page-header {
+	background: rgb(242, 242, 242); /* Fallback Color */
+	background-color: rgba(242, 242, 230, 0.6);
+	padding: 0.5rem 1rem 1rem 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	border-radius: 1rem;
+}
+.page-header h1 {
+	margin-bottom: 0;
+}
+.page-header p {
+	margin-top: 0;
+}
+.page-header small {
+	font-size: medium;
+}
+aside.more-info {
+	background: lightgoldenrodyellow;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+aside.more-info img {
+	width: 150px;
+	height: auto;
+	border-radius: 1rem;
+	margin-right: 2rem;
+	float: left;
+}
+aside.more-info img:hover {
+	opacity: 0.40;
+    filter: alpha(opacity=40);
+}
+.info-links {
+	margin-left: 10rem;
+}
+ul.social-links {
+	display: inline-flex;
+	list-style-position: inside;
+	padding-left: 0.1rem;
+	list-style-type: none;
+}
+.social-links li {
+	margin-left: 1rem;
+}
+#content {
+	box-shadow: 8px 8px 10px #808080;
+	background-image: url('images/hard-paper-texture.jpg');
+	background-size: cover;
+	opacity: 0.75;
+	border: solid 0.15rem grey;
+	padding: 5rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	border-radius: 100%;
+}
+#content ul::first-letter {
+    font-size: 150%;
+    color: red;
+	font-style: italic;
+}
+.poem {
+	list-style-type: none;
+}
+.poem li{
+	font-size: large;
+	line-height: 1.8;
+	text-align: center;
+}
+.content-footer {
+	background: none;
+	padding-top: 1rem;
+	text-align: center;
+}
+.page-footer {
+	background: rgb(242, 242, 242); /* Fallback Color */
+	background-color: rgba(242, 242, 242, 0.5);
+	padding: 1rem;
+	border-radius: 1rem;
+}
+.page-credits {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: -0.1rem;
 }
